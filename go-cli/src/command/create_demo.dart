@@ -99,6 +99,7 @@ class _State extends State<Demo> {
 // Time: ${new DateTime.now()}
 // email: ${demoDetail.email}
 // desc:  ${demoDetail.desc}
+
 //
 
 import 'src/index.dart';
@@ -121,6 +122,7 @@ var demoWidgets = [
 class CreateDemoCommand extends Command<int> {
   @override
   final name = 'createDemo';
+  final ip = '127.0.0.1';
   @override
   final description = '新增flutter go demo.';
 
