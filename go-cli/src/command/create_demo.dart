@@ -122,7 +122,7 @@ var demoWidgets = [
 class CreateDemoCommand extends Command<int> {
   @override
   final name = 'createDemo';
-  final ip = '192.168.3.11';
+  final ip = '47.99.70.194';
   @override
   final description = '新增flutter go demo.';
 
